@@ -1,6 +1,8 @@
-public class Main {
+package lesson001;
 
-    public static void main(String[] args) {
+public class ExampleSwitch {
+
+    void exampleSwitch() {
         int a = 50;
         switch (a) {
             case 50:
@@ -17,3 +19,6 @@ public class Main {
 
     }
 }
+
+
+
