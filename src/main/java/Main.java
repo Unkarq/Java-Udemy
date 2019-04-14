@@ -1,28 +1,19 @@
 public class Main {
 
     public static void main(String[] args) {
+        int a = 50;
+        switch (a) {
+            case 50:
+                System.out.println("a equal 50");
+                break;
+            case 100:
+                System.out.println("a equal 100");
+                break;
+            default:
+                System.out.println("a isn't equal 50 and 100");
 
-        int a = 5,
-                b = 7,
-                c = 9;
-
-//        System.out.println(a!=b);
-//
-//        if(a !=b && c > 5)
-//            System.out.println("test");
-//
-//
-
-        if (a > b)
-            System.out.println("a > b");
-        else if (a < b) {
-            System.out.println("a < b");
-            System.out.println("It's working");
-        } else
-            System.out.println("a == b");
+        }
 
 
     }
-
-
 }
