@@ -1,4 +1,4 @@
-package lesson003.objectprograming.Constructors;
+package lesson003.objectprograming.constructors;
 
 public class ObjectPrograming {
 

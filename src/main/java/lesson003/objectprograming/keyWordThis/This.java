@@ -1,4 +1,4 @@
-package lesson003.objectprograming.KeyWordThis;
+package lesson003.objectprograming.keyWordThis;
 
 public class This {
 
