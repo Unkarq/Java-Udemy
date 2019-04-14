@@ -1,19 +1,21 @@
 public class Main {
 
     public static void main(String[] args) {
-        int a = 50;
-        switch (a) {
-            case 50:
-                System.out.println("a equal 50");
-                break;
-            case 100:
-                System.out.println("a equal 100");
-                break;
-            default:
-                System.out.println("a isn't equal 50 and 100");
+        int x = 5;
+
+//        if(x % 2 == 0)
+//            System.out.println("even");
+//        else
+//            System.out.println("odd");
+
+
+
+        String czyParzysta = x%2 == 0 ? "even" : "odd";
+        System.out.println(czyParzysta);
 
         }
 
 
     }
-}
+
+    
